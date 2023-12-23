@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Border radius preview</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Border radius preview</h1>
+        <input type="number" class="top-left" placeholder="top left" oninput="topLeft()" min="1">
+        <input type="number" class="top-right" placeholder="top right" oninput="topRight()" min="1">
+        <input type="number" class="bottom-left" placeholder="bottom left" oninput="bottomLeft()" min="1">
+        <input type="number" class="bottom-right" placeholder="bottom right" oninput="bottomRight()" min="1">
+        <div class="box" id="box"></div>
+
+        <div class="copy-container">
+            <p class="copy-text1 copy"></p>
+            <p class="copy-text2 copy"></p>
+            <p class="copy-text3 copy"></p>
+            <p class="copy-text4 copy"></p>
+            <button class="copy-btn">Copy all</button>
+        </div>
+    </div>
+    
+</body>
+</html>

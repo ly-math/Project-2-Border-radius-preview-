@@ -1,0 +1,58 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    background-color: red;
+}
+
+input {
+    width: 15rem;
+    padding: .5rem;
+
+}
+
+.copy-container {
+    border: 2px solid blue;
+    width: 20rem;
+    height: 12rem;
+    position: relative;
+    background-color: rgb(42, 165, 87);
+}
+
+.copy-container button {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    background-color: rgb(131, 77, 182);
+}
+
+.container button:active {
+    background-color: rgb(147, 147, 147);
+}
+
+.copy {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
